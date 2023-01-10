@@ -2,9 +2,9 @@
 # Пример:
 # [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
-# print("\033c")
+print("\033c")
 text = [2, 3, 5, 9, 3]
-Result = 0
+Result = 1
 for i in range(1, len(text), 2):
     Result += text[i]
 print(Result)
